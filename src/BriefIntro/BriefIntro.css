@@ -1,0 +1,63 @@
+.brief-intro-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px 40px 50px;
+}
+
+.shreesha-image{
+    display: flex;
+    flex-grow: 1;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.shreesha-image > img{
+    width: 400px;
+    height: 400px;
+}
+.intro{
+    width: 50%;
+}
+.intro > p:nth-child(1){
+    color: darkcyan;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.intro > p:nth-child(2){
+    color: black;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.intro > p:nth-child(2) > span{
+    color: darkcyan;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.intro > p:nth-child(3){
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.portfolio-button{
+    background: darkcyan;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.portfolio-button:hover{
+    background: red;
+}

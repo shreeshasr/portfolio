@@ -1,0 +1,30 @@
+.hobby-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    max-width: 250px;
+    background:gainsboro;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px 10px 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.hobby-container > i{
+    width: 50px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.hobby-container > p{
+    padding-left: 10px;
+    margin:0;
+}
+.hobby-container:hover{
+    transform: translateY(-10px);
+    transition: transform 1s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

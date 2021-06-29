@@ -1,0 +1,17 @@
+.hobbies-container{
+    padding: 80px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hobbies-container > p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.hobbies-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    justify-content: center;
+}

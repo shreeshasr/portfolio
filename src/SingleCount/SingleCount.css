@@ -1,0 +1,6 @@
+.singlecount-container{
+    text-align: center;
+}
+.singlecount-container > i{
+    color: cyan;
+}
