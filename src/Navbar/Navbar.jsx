@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Navbar.css';
 
 function Navbar(){
-    let mode = "Dark mode";
         return (
             <div className="navbar-container">
                 <p>iamShreesha</p>

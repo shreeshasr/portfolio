@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Hobby from '../Hobby/Hobby.jsx';
 import './Hobbies.css'
-import DirectionsBikeIcon from '@material-ui/icons/DirectionsBike';
+
 export default class Hobbies extends Component {
     render() {
         return (
