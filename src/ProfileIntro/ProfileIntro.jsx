@@ -13,13 +13,13 @@ export default class ProfileIntro extends Component {
                     <p>I'm a Passionate </p>
                     <p><Typewriter
                         options={{
-                            strings: ['Frontend Developer', 'Backend Engineer'],
+                            strings: ['Frontend Developer 💻', 'Backend Engineer ⌨️'],
                             autoStart: true,
                             loop: true,
                         }}
                     /></p>
                 </div>
-                <a href="/images/myw3schoolsimage.jpg" download><button className="download-cv">Download CV <i className="fa fa-download" aria-hidden="true"></i></button></a>
+                <a href="/images/myw3schoolsimage.jpg" download><button className="download-cv">Download My CV <i className="fa fa-download" aria-hidden="true"></i></button></a>
             </div>
         )
     }

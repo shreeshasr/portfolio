@@ -13,7 +13,7 @@ export default class BriefIntro extends Component {
                     <p>Shreesha Bhat</p>
                     <p>I'm a passionate <span>Full Stack Engineer</span></p>
                     <p>Dedicated and efficient full stack developer with passionate experience in application layers, presentation layers, and databases. Certified in both Front End and Back End technologies. Spearheaded successful transition from the Front End to Full-Stack. In the Journey of turning dreams into Reality by converting ideas into #Code 🚀</p>
-                    <button className="portfolio-button">View Portfolio</button>
+                    <button className="portfolio-button">View Portfolio 😃</button>
                 </div>
             </div>
         )

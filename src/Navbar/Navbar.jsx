@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 
-class Navbar extends Component {
-    render() {
+function Navbar(){
+    let mode = "Dark mode";
         return (
             <div className="navbar-container">
                 <p>iamShreesha</p>
@@ -24,6 +24,5 @@ class Navbar extends Component {
                 </div>
             </div>
         )
-    }
 }
 export default  Navbar;

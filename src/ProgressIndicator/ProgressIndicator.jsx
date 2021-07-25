@@ -1,19 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './ProgressIndicator.css'
-export default class ProgressIndicator extends Component {
-    render() {
-        return (
+
+function ProgressIndicator( {skills, percentage}) {
+    if(skills.length !== 0 ){
+        return(
             <div className="progress-indicator-container">
-                <button>{this.props.field}</button>
                 <div className="percentage-container">
                     <div className="labels">
-                        <label for="webdev">{this.props.skills}</label>
-                        <label for="percentage">{this.props.percentage + "%"}</label>
+                        <label for="webdev">{skills}</label>
+                        <label for="percentage">{percentage + "%"}</label>
                     </div>
-                    <progress value={this.props.percentage} max="100"> {this.props.percentage +"%"} </progress>
+                    <progress value={percentage} max="100"> {percentage +"%"} </progress>
                 </div>
-               
             </div>
-        )
+        ) 
     }
 }
+
+export default ProgressIndicator

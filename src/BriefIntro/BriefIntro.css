@@ -8,14 +8,14 @@
 
 .shreesha-image{
     display: flex;
-    flex-grow: 1;
     flex-direction:row;
-    justify-content: flex-end;
-    padding-right: 100px;
+    justify-content: center;
+    width: 50%;
+    padding-right: 90px ;
 }
 .shreesha-image > img{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
 .intro{
     width: 50%;

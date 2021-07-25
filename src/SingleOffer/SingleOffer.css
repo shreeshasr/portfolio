@@ -1,7 +1,7 @@
 .single-offer-container{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     height: 300px;
     justify-content: center;
     align-items: center;

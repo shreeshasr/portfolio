@@ -30,7 +30,7 @@
 }
 .download-cv{
     background: darkcyan;
-    width: 150px;
+    width: fit-content;
     padding: 10px;
     color: white;
     border-radius: 8px;
