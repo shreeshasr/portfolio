@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 .profileintro-container > img{
     max-width: 200px;
     border-radius: 50%;
@@ -29,6 +31,7 @@
     display: inline-block;
 }
 .download-cv{
+    font-family: 'Montserrat', sans-serif;
     background: darkcyan;
     width: fit-content;
     padding: 10px;
