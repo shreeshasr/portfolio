@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Shreesha from '../images/shreesha.jpg';
+import Resume from '../images/shreeshasr_resume.pdf';
 import './ProfileIntro.css';
 import Typewriter from 'typewriter-effect';
 
@@ -19,7 +20,7 @@ export default class ProfileIntro extends Component {
                         }}
                     /></p>
                 </div>
-                <a href="/images/myw3schoolsimage.jpg" download><button className="download-cv">Download My CV <i className="fa fa-download" aria-hidden="true"></i></button></a>
+                <a href={Resume} download><button className="download-cv">Download My CV <i className="fa fa-download" aria-hidden="true"></i></button></a>
             </div>
         )
     }
